@@ -7,8 +7,9 @@ app.use(express.json());
 
 // Home
 app.get('/', (req, res) => {
-  res.send('Welcome to My Backend Server!');
+ res.send('Welcome to My Updated Backend Server!');
 });
+
 
 // API Example
 app.get('/api/user', (req, res) => {
